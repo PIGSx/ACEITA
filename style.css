@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: 200;
+  border-radius: 10px;
+  border: none;
+  background-color: #370f53;
+  color: #fff;
+}
+
+.btn:hover {
+  transition: 1s;
+  background-color: #8558a5;
+  color: #fff;
+}
+
+button {
+  margin-top: 20px;
+  margin-left: 12px;
+}
+
+#botao1 {
+  position: flex;
+  top: 10px;
+  cursor: pointer;
+}
+
+#botao2 {
+  position: absolute;
+}
+
+#botao2:hover {
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
+}
+
+#botao2 {
+  min-top: 10%;
+  max-top: 90%;
+  min-left: 10%;
+  max-left: calc(100% - 50px);
+}
